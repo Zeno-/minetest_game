@@ -8,6 +8,7 @@ minetest.register_node("default:stone", {
 	drop = 'default:cobble',
 	legacy_mineral = true,
 	sounds = default.node_sound_stone_defaults(),
+	stack_max = 99*4,
 })
 
 minetest.register_node("default:desert_stone", {
@@ -18,6 +19,7 @@ minetest.register_node("default:desert_stone", {
 	drop = 'default:desert_stone',
 	legacy_mineral = true,
 	sounds = default.node_sound_stone_defaults(),
+	stack_max = 99*4,
 })
 
 minetest.register_node("default:stone_with_coal", {
@@ -127,6 +129,7 @@ minetest.register_node("default:dirt", {
 	is_ground_content = true,
 	groups = {crumbly=3,soil=1},
 	sounds = default.node_sound_dirt_defaults(),
+	stack_max = 99*4,
 })
 
 minetest.register_abm({
@@ -1086,6 +1089,7 @@ minetest.register_node("default:cobble", {
 	is_ground_content = true,
 	groups = {cracky=3, stone=2},
 	sounds = default.node_sound_stone_defaults(),
+	stack_max = 99*10,
 })
 
 minetest.register_node("default:mossycobble", {
